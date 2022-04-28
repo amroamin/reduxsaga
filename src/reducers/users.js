@@ -16,3 +16,4 @@ const initialState = {
         return state;
     }
   };
+  export default users

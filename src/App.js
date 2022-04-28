@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Welcome to React Redux Saga Crash Course</h1>
+      <h1>hi saga</h1>
       {loading && <h2>Loading...</h2>}
       {error && !loading && <h2>{error}</h2>}
       {users && users.map((user, i) => <h1 key={i}>{user.name}</h1>)}
